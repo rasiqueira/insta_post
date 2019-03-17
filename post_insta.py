@@ -35,8 +35,8 @@ save = algo.pipe(input).result
 save = save['savePath']
 localAbsPath = client.file(str(save[0])).getFile().name
 
-print("start cmd /c instapy -u jiujitsu_fighters -p rod@1220 -f " +  localAbsPath + " -t "  + text)
+print("start cmd /c instapy -u jiujitsu_fighters -p pass -f " +  localAbsPath + " -t "  + text)
 
-os.system("start cmd /c instapy -u jiujitsu_fighters -p rod@1220 -f " +  localAbsPath + " -t "  +  text)
+os.system("start cmd /c instapy -u jiujitsu_fighters -p pass -f " +  localAbsPath + " -t "  +  text)
 
 
